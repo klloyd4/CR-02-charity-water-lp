@@ -1,0 +1,118 @@
+styles.css
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fdf4dc;
+  color: #111;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logo span {
+  font-weight: normal;
+  color: #fdf4dc;
+}
+
+.give-button {
+  background-color: #ffc800;
+  color: #111;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+/* Hero section */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gift-text {
+  background-color: #111;
+  color: white;
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.give-button.large {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+}
+
+/* Image section */
+.images {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.images img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta {
+    justify-content: center;
+  }
+}
