@@ -25,7 +25,7 @@ Fonts:
 
 /* Set up the main font and background color for the whole page */
 body {
-  background-color: #fff7e1; /* Soft yellow */
+  background-color: #1a1a1a; /* Soft yellow */
   font-family: 'Avenir', 'Proxima Nova', Proxima-Nova, sans-serif;
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@ section {
   /* Add a dark overlay for better text readability */
   /* This uses a simple linear-gradient overlay */
   background-blend-mode: darken;
-  background-color: rgb(255, 247, 225); /* yellow overlay */
+  background-color: rgb(26, 26, 26); /* yellow overlay */
 }
 
 /* Make the headline bold and modern */
@@ -66,7 +66,7 @@ section {
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 15px;
-  text-shadow: 0 2px 8px rgba(255,247,225); /* Soft shadow for readability */
+  text-shadow: 0 2px 8px rgba(26,26,26); /* Soft shadow for readability */
 }
 
 /* Style the subheadline */
