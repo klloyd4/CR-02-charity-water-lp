@@ -57,7 +57,7 @@ section {
   /* Add a dark overlay for better text readability */
   /* This uses a simple linear-gradient overlay */
   background-blend-mode: darken;
-  background-color: rgb(255, 253, 210); /* yellow overlay */
+  background-color: rgb(255, 247, 225); /* yellow overlay */
 }
 
 /* Make the headline bold and modern */
@@ -66,19 +66,19 @@ section {
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 15px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for readability */
+  text-shadow: 0 2px 8px rgba(255,247,225); /* Soft shadow for readability */
 }
 
 /* Style the subheadline */
 .hero p {
   font-size: 1.2em;
   margin-top: 0;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  text-shadow: 0 1px 4px rgba(255,247,225);
 }
 
 /* Story Section Styles */
 .story {
-  background-color: #8BD1CB; /* Secondary Light Blue */
+  background-color: #1a1a1a; /* Black */
   color: #fff7e1;
   text-align: center;
   padding: 30px 20px;
