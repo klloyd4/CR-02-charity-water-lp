@@ -57,7 +57,7 @@ section {
   /* Add a dark overlay for better text readability */
   /* This uses a simple linear-gradient overlay */
   background-blend-mode: darken;
-  background-color: rgb(245, 242, 162); /* yellow overlay */
+  background-color: rgb(255, 253, 210); /* yellow overlay */
 }
 
 /* Make the headline bold and modern */
