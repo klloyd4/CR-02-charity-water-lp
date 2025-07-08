@@ -25,8 +25,8 @@ Fonts:
 
 /* Set up the main font and background color for the whole page */
 body {
-  background-color: #f4f8fb; /* Soft light blue for a fresh look */
-  font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+  background-color: #fff781; /* Soft yellow */
+  font-family: 'Avenir', 'Proxima Nova', Proxima-Nova, sans-serif;
   margin: 0;
   padding: 0;
   color: #222;
@@ -34,7 +34,7 @@ body {
 
 /* Add a slight shadow and rounded corners to each section for depth */
 section {
-  background: #fff; /* White background for sections */
+  background: #1a1a1a; /* black background for sections */
   border-radius: 12px; /* Rounded corners */
   box-shadow: 0 2px 8px rgba(46, 157, 247, 0.07); /* Soft blue shadow */
   margin: 24px 10px; /* Space between sections */
@@ -49,7 +49,7 @@ section {
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  color: #fff;                 /* White text for contrast */
+  color: #1a1a1a;                 /* Black text for contrast */
   text-align: center;          /* Center the text */
   padding: 60px 20px;          /* Add space above and below */
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
@@ -57,7 +57,7 @@ section {
   /* Add a dark overlay for better text readability */
   /* This uses a simple linear-gradient overlay */
   background-blend-mode: darken;
-  background-color: rgba(46, 157, 247, 0.45); /* Blue overlay */
+  background-color: rgb(245, 242, 162); /* yellow overlay */
 }
 
 /* Make the headline bold and modern */
@@ -79,21 +79,21 @@ section {
 /* Story Section Styles */
 .story {
   background-color: #8BD1CB; /* Secondary Light Blue */
-  color: #222;
+  color: #fff7e1;
   text-align: center;
   padding: 30px 20px;
 }
 
 /* Add accent color to section headings */
 h2 {
-  color: #2E9DF7; /* Primary blue */
+  color: #1a1a1a; /* black */
   margin-top: 0;
   font-weight: bold;
 }
 
 /* Call-to-Action Section Styles */
 .call-to-action {
-  background-color: #FFC907; /* Primary Yellow */
+  background-color: #1a1a1a; /* Primary Yellow */
   color: #222;
   text-align: center;
   padding: 30px 20px;
@@ -111,8 +111,8 @@ h2 {
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
-  background-color: #4FCB53; /* Green */
-  color: #fff;
+  background-color: #ffc907; /* Green */
+  color: #fff7e1;
   padding: 14px 32px;
   text-decoration: none;
   border-radius: 6px;
@@ -127,7 +127,7 @@ h2 {
 
 /* Change button color when hovered */
 .donate-button:hover {
-  background-color: #159A48; /* Dark Green */
+  background-color: #ffc907; /* Bright Yellow */
   transform: translateY(-2px) scale(1.04); /* Slight lift */
 }
 
