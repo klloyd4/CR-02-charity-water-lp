@@ -49,7 +49,7 @@ section {
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
-  color: #1a1a1a;                 /* Black text for contrast */
+  color: #fff7e1;                 /* Yellow text for contrast */
   text-align: center;          /* Center the text */
   padding: 60px 20px;          /* Add space above and below */
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
@@ -93,7 +93,7 @@ h2 {
 
 /* Call-to-Action Section Styles */
 .call-to-action {
-  background-color: #1a1a1a; /* Primary Yellow */
+  background-color: #1a1a1a; /* Black */
   color: #222;
   text-align: center;
   padding: 30px 20px;
@@ -105,13 +105,13 @@ h2 {
   max-width: 320px;
   border-radius: 10px;
   margin-bottom: 16px;
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
+  box-shadow: 0 2px 8px rgba(26, 26, 26);
 }
 
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
-  background-color: #ffc907; /* Green */
+  background-color: #ffc907; /* Yellow */
   color: #fff7e1;
   padding: 14px 32px;
   text-decoration: none;
@@ -119,7 +119,7 @@ h2 {
   font-weight: bold;
   font-size: 1.1em;
   margin-top: 18px;
-  box-shadow: 0 2px 8px rgba(79, 203, 83, 0.10);
+  box-shadow: 0 2px 8px rgba(26, 26, 26);
   transition: background 0.3s, transform 0.2s;
   border: none;
   cursor: pointer;
